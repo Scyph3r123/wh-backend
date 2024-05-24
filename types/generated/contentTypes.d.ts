@@ -845,6 +845,7 @@ export interface ApiProjectProject extends Schema.CollectionType {
       > &
       Attribute.DefaultTo<2024>;
     lens: Attribute.String;
+    addAwards: Attribute.Component<'project.awards', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
