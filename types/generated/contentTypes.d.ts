@@ -937,8 +937,15 @@ export interface ApiProjectProject extends Schema.CollectionType {
         number
       > &
       Attribute.DefaultTo<2024>;
-    lens: Attribute.String;
     addAwards: Attribute.Component<'project.awards', true>;
+    director: Attribute.String;
+    writer: Attribute.String;
+    producer: Attribute.String;
+    dop: Attribute.String;
+    editor: Attribute.String;
+    score: Attribute.String;
+    starring: Attribute.String;
+    format: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

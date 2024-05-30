@@ -41,13 +41,34 @@
       "min": 1900,
       "default": 2024
     },
-    "lens": {
-      "type": "string"
-    },
     "addAwards": {
       "type": "component",
       "repeatable": true,
       "component": "project.awards"
+    },
+    "director": {
+      "type": "string"
+    },
+    "writer": {
+      "type": "string"
+    },
+    "producer": {
+      "type": "string"
+    },
+    "dop": {
+      "type": "string"
+    },
+    "editor": {
+      "type": "string"
+    },
+    "score": {
+      "type": "string"
+    },
+    "starring": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
     }
   }
 }
